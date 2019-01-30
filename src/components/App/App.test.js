@@ -7,6 +7,7 @@ describe('App',()=>{
     it('renders propely',()=>{
         expect(app).toMatchSnapshot();
     })
+    
     it('contains a Connected Wallet component',()=>{
         expect(app.find('Connect(Wallet)').exists()).toBe(true);
     })
