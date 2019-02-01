@@ -5,12 +5,8 @@ class ex extends Component {
     render() {
         return (
             <div className="flex-container">
-                <div className="div1">
-                jhjh
-                </div>
-                <div className="div2">
-                ghhgh
-                </div>
+                <div>1</div>
+                <div>2</div>
             </div>
         );
     }

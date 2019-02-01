@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Wallet from './../Wallet/Wallet'
-import './App.css'
+import Example from '../ex/ex'
 
-import Ex from '../ex/ex'
+
 class App extends Component {
     render() {
         return (
-            <div className="body">
+            <div>
                 <h2>Loot Check</h2>
                 <hr/>
                 <Wallet/>
-                {/* <Ex /> */}
+                {/* <Example /> */}
             </div>
         );
     }
